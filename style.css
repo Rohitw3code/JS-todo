@@ -1,0 +1,271 @@
+::-webkit-scrollbar {
+                display: none;
+            }
+
+* {
+    font-family: Bahnschrift Light;
+    cursor: default;
+}
+
+body {
+    background-color: rgb(55,55,55);
+}
+
+table {
+    border: hidden;
+    border-spacing: 5px;
+}
+
+td {
+    border: 1px solid gray;
+    width: 770px;
+    height: 40px;
+    border-radius: 3px;
+   
+}
+
+td:hover {
+    background-color: rgb(50,50,50);
+    box-shadow: 1px 0px 5px white;
+}
+
+#delete {
+    float: right;
+    border-radius: 3px;
+    color: red;
+    border: 1px solid red;
+    width: 70px;
+}
+
+#delete:hover {
+    background-color: red;
+    color: white;
+}
+
+#open {
+    float: right;
+    border-radius: 3px;
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    width: 70px;
+}
+
+#open:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+#b2s {
+    border: 2px solid rgb(0, 191, 255);
+    width: 780px;
+    height: 489px;
+    overflow-y: scroll;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#sugest {
+    position: fixed;
+      top: 220px;
+    left: 240px;
+    font-size: 40px;
+    border: hidden;
+    color: deepskyblue;
+}
+
+a {
+    float: right;
+    padding: 5px;
+    cursor: default;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#add {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    font-size: 25px;
+    border: 2px solid deepskyblue;
+    background-color: black;
+    text-align: center;
+}
+
+#adder-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    font-size: 25px;
+    border: 2px solid deepskyblue;
+    background-color: black;
+    text-align: center;
+}
+
+#Title {
+    border: 2px solid rgb(0, 0, 0);
+    width: 494px;
+    height: 20px;
+    padding: 8px;
+    font-size: 19px;
+    margin-top: 12px;
+    background-color: rgb(60,60,60);
+    color: white;
+    text-indent: 5px;
+   
+}
+
+#titlearea, #textarea {
+    display: none;
+}
+
+#distitle {
+    display: block;
+    margin-left: 130px;
+}
+
+#disdoc {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+#disfulldocument {
+    display: block;
+    text-align: left;
+    margin-top: 4px;
+    padding: 5px;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+span {
+    text-align: center;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: -webkit-baseline-middle;
+    width: -webkit-fill-available;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    /* position: sticky; */
+    /* bottom: 0px; */
+}
+
+textarea {
+    border: 2px solid black;
+    width: 494px;
+    height: 200px;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-left: 110px;
+    background-color: rgb(80,80,80);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#save {
+    width: 70px;
+    color: orange;
+    border: 1px solid orange;
+    margin-left: 230px;
+    margin-top:10px;
+    background-color: rgb(55,55,55);
+    padding: 8px;
+    border-radius: 3px;
+}
+
+#save:hover {
+    background-color: orange;
+    color: black;
+}
+
+#savedit {
+    width: 70px;
+    background-color: rgb(55,55,55);
+    color: orange;
+    border: 1px solid orange;
+    margin-left: 340px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+#savedit:hover {
+    background-color: orange;
+    color: black;
+}
+
+#disfulldocument div {
+    font-size: 18px;
+    border: hidden;
+    border: 1px solid gray;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    width: 720px;
+    height: auto;
+}
+
+.tools {
+    border: 2px solid rgb(0, 191, 255);
+    width: 780px;
+    height: 50px;
+    border-radius: 0px 0px 5px 5px;
+    border-top: hidden;
+    background-color: rgb(60,60,60);
+    padding: 5px;
+}
+
+#Rename {
+    color: green;
+    border: 1px solid green;
+    width: 70px;
+}
+
+#Rename:hover {
+    background-color: green;
+    color: black;
+}
+
+#Edit {
+    color: yellow;
+    border: 1px solid yellow;
+    margin-right: 10px;
+    width: 70px;
+}
+
+#Edit:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#Cancle {
+    width: 70px;
+    color: orange;
+    border: 1px solid orange;
+    margin-right: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#Cancle:hover {
+    background-color: orange;
+    color: black;
+}
+
+#no_notes{
+    float:left;
+    color: rgb(255, 255, 255);
+    background-color:red;
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    text-align: center;
+  font-size:23px;
+    border-radius: 50px;
+    border:hidden;
+    margin-top:2px;
+}
+#no_notes:hover{
+    opacity:0.8;
+}
